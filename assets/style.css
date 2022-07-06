@@ -63,7 +63,7 @@ ul, ol {list-style: none;}
 
  
 /* BANNER SECTION */
-.banner{padding: 400px 0px 150px 0px; background: url('images/donation-banner.jpg') #121212; background-size: cover; background-position: bottom center; }
+.banner{padding: 300px 0px 120px 0px; background: url('images/donation-banner.jpg') #121212; background-size: cover; background-position: bottom center; }
 .banner .widget-wrap{margin: 0 auto;}
 
 /* DONATE TODAY SECTION */
