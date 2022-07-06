@@ -1,0 +1,13 @@
+
+Width -	1290 PX
+
+Font - Montserrat
+H1 - 60px	#575757
+H2 - 40px	#575757
+H3 - 28px 800 Extra bold
+
+Body - p 18px regular - #707070
+
+Number - 40px [48 PX]
+Primary Color #FF1E1E
+2nd Color  #FBA24F
