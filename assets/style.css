@@ -21,6 +21,7 @@ p, input{color:#707070; font-size: 18px; line-height: 30px; font-family: 'Montse
 .text-left{text-align: left;}
 .text-shadow-dark{ text-shadow: 2px 2px #333; }
 .text-light{color:#f8f8f8}
+img{max-width: 100%; border-radius: 5px;}
 /* FORM  */
 input{ padding: 17px 35px; border-radius: 5px; width: 100%; font-weight: 600;}
 
@@ -29,16 +30,20 @@ ul, ol {list-style: none;}
 /* BUTTON */
 .btn{ padding: 15px 35px; display: inline-block; vertical-align: middle;border-radius: 5px; border: none; margin-bottom: 10px;  font-weight: 600; font-size: 18px; line-height: 30px;  }
 .btn-primary{background-color: #FF5959; color:#f8f8f8; border: 1px solid #FF5959; }
-.btn-primary:hover {background-color: #f8f8f8; color:#FF5959;}
+.btn-primary:hover {background-color: #f8f8f8; color:#FF5959; border-color:#FFF ;}
 .btn-block{width: 100%; box-sizing: border-box;}
+.hover-shadow:hover{box-shadow: 2px 2px 5px 4px #f1f1f1;}
+.hover-shadow-dark:hover{box-shadow: 2px 2px 5px 4px #222;}
 
+/* WHITE SPACE */
+.line-40{padding: 20px 0px; display: block;}
 /* WIDGET */
 .widget-wrap{padding: 10px; display: flex; box-sizing: border-box; }
-.widget{margin-bottom: 10px; padding: 10px; width: 100%; position: relative; box-sizing: border-box;}
+.widget{padding: 10px; width: 100%; position: relative; box-sizing: border-box;}
 .widget-element{margin-bottom: 20px;}
 
 /* INFO BOX WITH IMAGE */
-.info-box-w-img{ padding: 30px 20px; border-radius: 5px; box-sizing: border-box;}
+.info-box-w-img{ padding: 40px; border-radius: 5px; box-sizing: border-box;}
 .info-box-w-img img{margin-bottom: 10px;}
 .info-box-shadow{box-shadow: 4px 2px 5px 2px #f1f1f1;}
 
@@ -51,38 +56,41 @@ ul, ol {list-style: none;}
 .section{display:block; padding: 90px 0px 90px 0px; box-sizing: border-box;}
 .row{display: flex; max-width: 1220px; width: 100%; margin: 0 auto; box-sizing: border-box;}
 .col-lg-12, .col-lg-11, .col-lg-10, .col-lg-9, .col-lg-8 , .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1{flex: 0 0 auto; display: inline-block; box-sizing: border-box; }
-
 .col-lg-12{width: 100%; } .col-lg-11{width: 91.666666667%;} .col-lg-10{width: 83.333333333%;} .col-lg-9{width: 75%; } .col-lg-8{width: 66.66666666%;} .col-lg-7{width: 58.33333333%;} .col-lg-6{width: 50%; } .col-lg-5{width: 41.66666666%; } .col-lg-4{width: 33.33333333%; } .col-lg-3{width: 25%;} .col-lg-2{width: 16.66666667%; } .col-lg-1{width: 8.33333333%;}
 
 /* COLOR */
 .primary-color{color:#FF1E1E;}
 
-
-/* BANNER SECTION*/
+ 
+/* BANNER SECTION */
 .banner{padding: 400px 0px 150px 0px; background: url('images/donation-banner.jpg') #121212; background-size: cover; background-position: bottom center; }
 .banner .widget-wrap{margin: 0 auto;}
 
 /* DONATE TODAY SECTION */
 .donate-price{  justify-content: space-evenly;}
-.donate-price li{display: inline-block;   font-size: 30px; font-weight: 700; color: #707070; padding: 35px 30px; min-width: 90px; background:#FAFAFA; margin: 5px;}
-.donate-price li.active{color: #FF5959; background: #FFEEEE; border: 2px solid #FF5959; border-radius: 5px;}
+.donate-price li{display: inline-block;   font-size: 30px; font-weight: 700; color: #707070; padding: 35px 30px; min-width: 90px; background:#FAFAFA; margin: 5px; border: 2px solid #FAFAFA; box-sizing:border-box; border-radius: 5px;;}
+.donate-price li.active{color: #FF5959; background: #FFEEEE; border-color: #FF5959; border-radius: 5px;}
 #donate-form{width: 100%;}
-#donate-form input{ display: block; border-bottom: 1px solid #DADADA;   width: 100%; padding: 10px; text-align: center; margin-bottom: 10px; }
+.donate-price li:hover{background: #FFEEEE; border-color: #FF5959;  cursor: pointer;}
+#donate-form input{ display: block; border-bottom: 1px solid #DADADA;   width: 100%; padding: 10px; text-align: center; }
 
 /* OUR DONATE PLAN */
-.our-donate input [type=text]{display: block; }
+#donatePlan{background-color: #fff;}
+.our-donate input {display: block; }
 
+/* ABOUT */
 
-#get-my-updates .min-height{ min-height: 200px;}
+/* GET MY UPDATES */
+#get-my-updates .min-height{ min-height: 250px;   align-items: center; display: flex!important; }
 #get-my-updates form{ vertical-align: middle;}
 #get-my-updates input, #get-my-updates .btn{ border-radius: 0!important;}
 
-/* My Recipies */
-.recipies{min-height: 200px;}
-/* Numbers */
-.numbers{
-    min-height: 200px; background: #ccc;
-}
-/* My Footer */
-.footer{background-color: #0b0d17;}
 
+
+
+
+/* Footer */
+footer{background-color: #0b0d17; padding-bottom:20px!important}
+footer hr{height: 1px; background: #555; border:0px;}
+#footer-logo-img img{width: 150px;}
+.copyright{font-size: 90%; }
